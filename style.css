@@ -1,77 +1,57 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
+
+/* Styles */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
   background-color: #f4f4f4;
+  font-family: arial;
+  margin: 0;
+  padding: 0; /* Espaçamento interno */
+}
+header {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #3333333d; /* Borda */
+  box-shadow: 5px 5px 15px rgba(50, 50, 50, 0.1);
+  border-radius: 15px; /* Bordas arredondadas */
+}
+h1 {
+  font-family: "crafty girls", cursive;
+  font-size: 50px;
+  color: #333;
+  margin-bottom: auto;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  font-family: "Playwrite IT Moderna", cursive;
+  margin-bottom: auto;
+  font-size: 15px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+p {
+  font-family: "Playwrite DE Grund", cursive;
   color: #333;
 }
-
-header {
-  background: #333;
-  color: #fff;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-header h1 {
-  margin: 0;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 10px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-main {
+.text-container {
+  border: 1px solid #33333348;
   padding: 20px;
-}
-
-.post {
-  background: #fff;
-  margin: 20px 0;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-  text-align: center;
-  padding: 10px 0;
-  background: #333;
-  color: #fff;
-  margin-top: 20px;
-}
-/* Responsividade */
-@media (max-width: 768px) {
-  nav ul li {
-    display: block;
-    margin: 10px 0;
-  }
-}
-/* Estilo para o botão de voltar ao topo */
-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-  display: none; /* Escondido por padrão */
-}
-button:hover {
-  background-color: #555;
+  margin: 10px; /* Espaçamento externo */
+  background-color: #ffffffe5;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
 }
