@@ -37,9 +37,18 @@ h1 {
 h2 {
   font-family: "Playwrite IT Moderna", cursive;
   margin-bottom: auto;
-  font-size: 15px;
+  font-size: 25px;
   color: #333;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  text-align: center;
+}
+h3 {
+  font-family: "Newsreader", cursive;
+  margin-bottom: auto;
+  font-size: 20px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  text-align: center;
 }
 p {
   font-family: "Playwrite DE Grund", cursive;
