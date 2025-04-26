@@ -40,7 +40,7 @@ h2 {
   font-size: 25px;
   color: #333;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
-  text-align: center;
+  text-align: center !important;
 }
 h3 {
   font-family: "Newsreader", cursive;
