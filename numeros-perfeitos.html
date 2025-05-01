@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="numeros-perfeitos.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Números Perfeitos</title>
+  </head>
+  <body>
+    <section id="inicio">
+      <header>
+        <h1>Blog de um Qualquer</h1>
+        <h2>(Que é viciado em matemática e cubos mágicos)</h2>
+      </header>
+    </section>
+    <main>
+      <section class="texto">
+        <div class="text-container">
+          <button
+            style="
+              background-color: rgba(255, 255, 255, 0);
+              border: none;
+              box-shadow: none;
+              margin: auto;
+            "
+          >
+            <a href="index.html" style="font-size: xx-large"
+              ><strong>←</strong></a
+            >
+          </button>
+          <h2>Números Perfeitos</h2>
+          <p>
+            Em matemática, um número perfeito é um número natural para o qual a
+            soma de todos os seus divisores naturais próprios (excluindo ele
+            mesmo) é igual ao próprio número. Por exemplo, o número 28 é, pois:
+            28 = 1 + 2 + 4 + 7 + 14 . Todo número perfeito é um número
+            triangular, bem como um número hexagonal.
+          </p>
+          <h3>Números perfeitos pares</h3>
+          <p>
+            O IX Livro dos Elementos de Euclides contem a definição de números
+            perfeitos e a seguinte proposição: 'Se tantos números quantos se
+            queira começando a partir da unidade forem dispostos continuamente
+            numa proporção duplicada até que a soma de todos resulte num número
+            primo, e se a soma multiplicada pelo último origina algum número,
+            então o produto será um número perfeito'. Em linguagem matemáticas
+            temos que se 2<sup>n</sup> - 1 é um número primo então a fórmula
+            2<sup>n-1</sup>(2<sup>n</sup>-1) resulta em um número perfeito. Os
+            gregos antigos estavam limitados aos quatro primeiros dados pela
+            fórmula de Euclides 2<sup>n-1</sup>(2<sup>n</sup>-1):
+          </p>
+          <ul>
+            <li>para n = 2: 2<sup>1</sup>(2<sup>2</sup> - 1) = 6 <br /></li>
+            <li>para n = 3: 2<sup>2</sup>(2<sup>3</sup> - 1) = 28 <br /></li>
+            <li>para n = 5: 2<sup>4</sup>(2<sup>5</sup> - 1) = 496 <br /></li>
+            <li>para n = 7: 2<sup>6</sup>(2<sup>7</sup> - 1) = 8.128</li>
+          </ul>
+          <p>
+            Os matemáticos da antiguidade fizeram várias afirmações sobre esses
+            números, elas foram baseadas nos quatro que já conheciam, mas a
+            maior parte se mostrou falsa.
+          </p>
+          <p>
+            Nicômaco de Gerase, um neopitagórico do Séc. I, afirmou que o quinto
+            número perfeito seria com n = 11, que é o quinjto primo. Porém,
+            2<sup>11</sup> - 1 = 2.047 = 23 x 89 não é primo e daí n = 11 não
+            gera um número perfeito. duas outras afirmações falsas são :
+          </p>
+          <ul>
+            <li>
+              O quinto número perfeito teria cinco algarismos pois os primeiros
+              quatro têm, respectivamente, 1, 2, 3, e 4 algarismos.
+            </li>
+            <li>Os números perfeitos alternam 6 e 8 no último algarismo.</li>
+          </ul>
+          <p>
+            O quinto número perfeito ( 33.550.336 =
+            2<sup>12</sup>(2<sup>13</sup>-1 ) ) ,registrado anonimamente em um
+            manuscrito medieval de 1456, tem 8 algarismos, contrariando a
+            primeira afirmação, mas como o número termina em 6 a segunda
+            afrimação não parecia ser falsa. Porém o sexto número perfeito (
+            8.589.869.056 = 2<sup>16</sup>(2<sup>17</sup> - 1 ) ), encontrado
+            pelo matemático italiano Pietro Antonio Cataldi ( Que encontrou
+            também o sétimo número perfeito ) também termina em 6, o que
+            constraria a segunda afirmação. Provanmdo também que todo número
+            perfeito par é terminado em 6 ou 8.
+          </p>
+          <p>
+            Para que 2<sup>n</sup> - 1 seja primo, é necessário mas não
+            suficiente que n seja primo. Os primos da forma 2<sup>n</sup> - 1
+            são conhecidos como primos de Mersenne, em honra do monge e
+            matemático Marin Mersenne, que os estudou em 1644 junto com a teoria
+            dos números e as propriedades dos números perfeitos.
+          </p>
+          <p>
+            Um milénio depois de Euclides, Ibn al-Haytham (Alhazen), por volta
+            do ano 1000, percebeu que todo número perfeito par é da forma 2<sup
+              >n - 1</sup
+            >(2<sup>n</sup> - 1) onde 2<sup>n</sup> - 1 é primo. Mas não
+            conseguiu provar o resultado. Só no Séc. XVIII Leonhard Euler provou
+            que a fórmuladaria todos os números perfeitos pares. Portanto, todo
+            primo de Mersenne gera um númnero perfeito par, numa correspondência
+            unívoca entre ambos os conjuntos. Este resultado é muitas vezes
+            reverido como o "Teorema de Euclides-Euler".
+          </p>
+          <p>
+            Até o dia 30 de abrial de 2025, o maior número perfeito conhacido
+            era 2<sup>82.589.932</sup>(2<sup>82.589.933</sup> - 1 ), um enorme
+            número com 49.724.095 algarismos. Sendo que naquela data só se
+            conhacia 51 primos de Mersenne, hoje em dia já se conhecem 52 primos
+            de Mersenne.
+          </p>
+          <h2>Em construção</h2>
+        </div>
+      </section>
+      <div class="comment-section">
+        <h2>Deixe seu comentário</h2>
+        <form class="comment-form" id="commentForm">
+          <textarea
+            id="commentInput"
+            placeholder="Escreva seu comentário aqui..."
+            required
+          ></textarea>
+          <button type="submit">Postar Comentário</button>
+        </form>
+        <h3>Comentários:</h3>
+        <ul class="comments-list" id="commentsList">
+          <!-- Comentários aparecerão aqui -->
+        </ul>
+      </div>
+
+      <script>
+        // Seleciona o formulário e a lista de comentários
+        const commentForm = document.getElementById("commentForm");
+        const commentInput = document.getElementById("commentInput");
+        const commentsList = document.getElementById("commentsList");
+
+        // Adiciona um evento de envio ao formulário
+        commentForm.addEventListener("submit", function (event) {
+          event.preventDefault(); // Evita o recarregamento da página
+
+          // Obtém o valor do comentário
+          const commentText = commentInput.value.trim();
+
+          if (commentText) {
+            // Cria um novo item de lista para o comentário
+            const newComment = document.createElement("li");
+            newComment.textContent = commentText;
+
+            // Adiciona o comentário à lista
+            commentsList.appendChild(newComment);
+
+            // Limpa o campo de entrada
+            commentInput.value = "";
+          }
+        });
+      </script>
+      <button style="text-align: center !important">
+        <a href="#inicio" style="text-align: center !important"
+          >Clique aqui para voltar ao topo</a
+        >
+      </button>
+    </main>
+  </body>
+</html>
